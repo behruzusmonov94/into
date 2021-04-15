@@ -8,6 +8,7 @@
 .left-side {
   max-width: 260px;
   padding: 0;
+  border-right: solid 1px #cfcfcf;
 }
 .left-side .worklist li {
   padding: 5px 0px;
@@ -41,10 +42,15 @@
 
 .left-footer {
   position: absolute;
-  bottom: 10px;
+  bottom: 20px;
   min-width: 260px;
   max-width: 260px;
   text-align: center;
+}
+
+.user {
+  width: 100px;
+  background: #085988;
 }
 
 /*# sourceMappingURL=style.css.map */
