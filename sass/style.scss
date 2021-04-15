@@ -1,0 +1,69 @@
+@import 'colors';
+
+* {
+    // font-family: 'Visuelt pro', sans-serif;
+}
+
+.logo {
+    width: 100%;
+
+    img {
+        max-width: 200px;
+    }
+}
+
+
+.left-side {
+    max-width: 260px;
+    padding: 0;
+
+    .worklist {
+        li {
+            padding: 5px 0px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #545454;
+            font-size: large;
+            font-weight: 500;
+            padding: 6px 15px;
+            transition: padding 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+            &:hover {
+                background: linear-gradient(99.51deg, #f7f7f7 1.4%, #dfdfdf 100%);
+                // background: #0C8ED8;
+                border-radius: 0px 6px 6px 0px;
+                // color: #fff;
+                padding: 6px 20px 6px 20px;
+
+            }
+
+            
+        }
+    }
+}
+
+.listActive {
+    background: linear-gradient(99.51deg, #0C8ED8 1.4%, #086AA2 100%);
+    // background: #0C8ED8;
+    border-radius: 0px 6px 6px 0px;
+    color: #fff !important;
+    padding: 6px 20px 6px 20px !important;
+
+    &:hover {
+        background: linear-gradient(99.51deg, #0b82c7 1.4%, #085988 100%) !important;
+        // background: #0C8ED8;
+        border-radius: 0px 6px 6px 0px;
+        color: #fff !important;
+        padding: 6px 20px 6px 20px !important;
+    }
+}
+
+.left-footer{
+    position: absolute;
+    bottom: 10px;
+    min-width: 260px;
+    max-width: 260px;
+    text-align: center;
+}
